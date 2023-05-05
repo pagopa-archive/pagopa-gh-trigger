@@ -1,0 +1,6 @@
+{
+  "pagopa-gh-trigger.plugin.name": "GitHub Actions",
+  "pagopa-gh-trigger.header.title": "Github Triggers",
+  "pagopa-gh-trigger.header.subtitle": "Run GH Actions simply",
+  "pagopa-gh-trigger.confpanel.refresh": "Refresh history"
+}

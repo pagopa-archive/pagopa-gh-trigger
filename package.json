@@ -1,0 +1,54 @@
+{
+  "name": "pagopa-gh-trigger",
+  "version": "0.0.2",
+  "description": "Strapi plugin to trigger Github Actions",
+  "private": false,
+  "strapi": {
+    "name": "pagopa-gh-trigger",
+    "displayName": "Github Actions trigger",
+    "description": "Plugin to manage deploy via Github Actions",
+    "kind": "plugin"
+  },
+  "devDependencies": {
+    "@types/koa": "2.13.3",
+    "@types/lodash": "^4.14.182",
+    "@types/node": "^16.11.40",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.25",
+    "copyfiles": "^2.4.1",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@strapi/utils": "^4.9.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intl": "5.20.2",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.9"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.9.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "develop": "tsc -p tsconfig.server.json -w",
+    "build": "tsc -p tsconfig.server.json"
+  },
+  "license": "MIT"
+}
